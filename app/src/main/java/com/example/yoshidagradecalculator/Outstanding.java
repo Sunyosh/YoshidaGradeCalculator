@@ -18,7 +18,7 @@ public class Outstanding extends AppCompatActivity {
         name2 = (TextView) findViewById(R.id.name2);
         outstandinggrade = (TextView) findViewById(R.id.outstandinggrade);
         name2.setText("Student name: " + i.getStringExtra("name"));
-        outstandinggrade.setText("Your grade is " + i.getIntExtra("final_grade", 0));
+        outstandinggrade.setText("Your final grade is " + i.getIntExtra("final_grade", 0));
 
 
     }

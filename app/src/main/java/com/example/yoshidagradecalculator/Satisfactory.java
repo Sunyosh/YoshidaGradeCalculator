@@ -18,7 +18,7 @@ public class Satisfactory extends AppCompatActivity {
         name4 = (TextView) findViewById(R.id.name4);
         satisfactory = (TextView) findViewById(R.id.satisfactory);
         name4.setText("Student name: " + i.getStringExtra("name"));
-        satisfactory.setText("Your grade is " + i.getIntExtra("final_grade", 0));
+        satisfactory.setText("Your final grade is " + i.getIntExtra("final_grade", 0));
 
 
     }

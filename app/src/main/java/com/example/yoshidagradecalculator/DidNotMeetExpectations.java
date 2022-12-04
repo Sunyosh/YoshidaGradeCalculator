@@ -18,7 +18,7 @@ public class DidNotMeetExpectations extends AppCompatActivity {
         name6 = (TextView) findViewById(R.id.name6);
         didnotmeetexpectations = (TextView) findViewById(R.id.didnotmeetexpectations);
         name6.setText("Student name: " + i.getStringExtra("name"));
-        didnotmeetexpectations.setText("Your grade is " + i.getIntExtra("final_grade", 0));
+        didnotmeetexpectations.setText("Your final grade is " + i.getIntExtra("final_grade", 0));
 
 
     }
